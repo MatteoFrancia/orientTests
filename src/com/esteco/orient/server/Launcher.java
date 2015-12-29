@@ -37,13 +37,15 @@ public class Launcher {
                         + "</properties>" + "</orient-server>");
         server.activate();
 
-        System.out.println("\nIs server active? \n" + server.isActive());
+        System.out.println("\nIs server active? ==> " + server.isActive());
 
-
-        // OPEN THE DATABASE
-        ODatabaseDocumentTx db = new ODatabaseDocumentTx("remote:localhost/petshop").open("admin", "admin");
+        ODatabaseDocumentTx db = null;
+        db = new ODatabaseDocumentTx ("plocal:/tmp/databases/d").create();
+        db.open("admin","admin");
+        //ODatabaseDocumentTx dbOpen = new ODatabaseDocumentTx("plocal:localhost/tmp/databases/petshop").open("admin", "admin");
 
 
         server.shutdown();
+        System.exit(0);
     }
 }
