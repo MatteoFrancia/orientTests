@@ -27,8 +27,10 @@ public class Launcher {
                         + "<user name=\"root\" password=\"ThisIsA_TEST\" resources=\"*\"/>"
                         + "</users>"
                         + "<properties>"
+                        /*
                         + "<entry name=\"orientdb.www.path\" value=\"C:/work/dev/orientechnologies/orientdb/releases/1.0rc1-SNAPSHOT/www/\"/>"
                         + "<entry name=\"orientdb.config.file\" value=\"C:/work/dev/orientechnologies/orientdb/releases/1.0rc1-SNAPSHOT/config/orientdb-server-config.xml\"/>"
+                        */
                         + "<entry name=\"server.cache.staticResources\" value=\"false\"/>"
                         + "<entry name=\"log.console.level\" value=\"info\"/>"
                         + "<entry name=\"log.file.level\" value=\"fine\"/>"
