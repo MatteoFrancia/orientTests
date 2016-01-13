@@ -4,7 +4,7 @@
 
 ## Directory-based project format:
 .idea/
-.DS_Store/
+.DS_Store
 
 lib/
 # if you remove the above rule, at least ignore the following:
@@ -30,7 +30,7 @@ lib/
 # .idea/mongoSettings.xml
 
 ## File-based project format:
-*.ipr
+*.iprmonitor
 *.iws
 
 ## Plugin-specific files:
