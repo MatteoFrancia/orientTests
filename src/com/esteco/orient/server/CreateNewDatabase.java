@@ -1,16 +1,15 @@
 package com.esteco.orient.server;
 
-/**
- * Created by mfrancia on 13/01/16.
- */
-
 import com.orientechnologies.orient.core.serialization.serializer.object.OObjectSerializer;
 import com.orientechnologies.orient.object.db.OObjectDatabaseTx;
 import com.orientechnologies.orient.object.serialization.OObjectSerializerContext;
 import com.orientechnologies.orient.object.serialization.OObjectSerializerHelper;
-
 import java.io.File;
 import java.math.BigInteger;
+
+/**
+ * Created by mfrancia on 13/01/16.
+ */
 
 public class CreateNewDatabase {
 
